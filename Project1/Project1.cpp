@@ -32,7 +32,7 @@ int main() {
 
     if (GLEW_OK != ret) {
         fprintf(stderr, "Error: %s \n", glewGetErrorString(ret));
-        return -1;
+        return 1;
     }
 
     glClearColor(0.2f, 0.3f, 0.4f, 0.0f);
